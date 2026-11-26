@@ -1,0 +1,20 @@
+@startuml 1С Интеграция
+
+!theme plain
+!include Стили.puml
+
+' Системы
+rectangle "1С бухгалтерия предприятия\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as OneSAccounting
+rectangle "1С торговля и склад\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as OneSTrading
+
+' 1С Интеграция ----------------------------------------------------------------------
+
+rectangle "Интеграция\n(Apache NiFi, DataLineage)" as Integration <<Process>>
+
+Integration --> OneSTrading : Данные ТМЦ\n[TLS; тег ТМЦ]
+OneSTrading --> Integration : Данные ТМЦ\n[TLS; тег ТМЦ]
+
+Integration --> OneSAccounting : Данные ТМЦ\n[TLS; тег ТМЦ]
+OneSAccounting --> Integration : Данные ТМЦ\n[TLS; тег ТМЦ]
+
+@enduml

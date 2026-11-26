@@ -1,0 +1,22 @@
+@startuml Закупка оборудования
+
+!theme plain
+!include Стили.puml
+
+' Люди
+rectangle "Сотрудник\nсклада" as WarehouseKeeper <<Person>>
+
+' Системы
+rectangle "1С торговля и склад\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as OneSTrading
+
+' Закупка оборудования для медицинских кабинетов ---------------------------------
+
+rectangle "Закупка оборудования\n(Data Lineage)" as EquipmentProcurement <<Process>>
+
+EquipmentProcurement --> WarehouseKeeper : Данные ТМЦ\n(TLS; тег ТМЦ)
+WarehouseKeeper --> EquipmentProcurement : Данные ТМЦ\n(TLS; тег ТМЦ)
+
+OneSTrading --> EquipmentProcurement : Данные ТМЦ\n(TLS; тег ТМЦ)
+EquipmentProcurement --> OneSTrading : Данные ТМЦ\n(TLS; тег ТМЦ)
+
+@enduml

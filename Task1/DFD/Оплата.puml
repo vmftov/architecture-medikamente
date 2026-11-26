@@ -1,0 +1,32 @@
+@startuml Оплата
+
+!theme plain
+!include Стили.puml
+
+' Люди
+rectangle "Пациент" as Patient <<Person>>
+rectangle "Кассир" as Cassier <<Person>>
+
+' Системы
+rectangle "1С бухгалтерия предприятия\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as OneSAccounting
+rectangle "Контрольно-кассовые\nмашины" as KKM
+
+' Хранилища
+database "Данные платежей (Excel-файл)\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as PaymentsExcelFile
+
+' Оплата ------------------------------------------------------------------------
+
+rectangle "Оплата\n(Data Lineage, Токенизация, Аудит)" as Payment <<Process>>
+
+Patient --> Payment : Банковская\nкарта или наличные,\nДоговор
+Payment --> Patient : Договор,\nЧек
+
+Payment --> Cassier : Договор,\nНаличные\n(TLS; Токенизация; тег ПлатежныеДанные)
+Cassier --> Payment : Договор,\nЧек
+
+Payment --> KKM : Карта/деньги
+
+Payment --> OneSAccounting : Информация\nо платеже\n(TLS; тег ПлатежныеДанные)
+Payment --> PaymentsExcelFile : Информация\nо платеже\n(TLS; тег ПлатежныеДанные)
+
+@enduml

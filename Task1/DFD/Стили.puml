@@ -1,0 +1,23 @@
+skinparam defaultTextAlignment center
+
+skinparam rectangle {
+  BackgroundColor #cce4fc
+  BorderColor #7098c0
+}
+skinparam rectangle<<External>> {
+  BackgroundColor #dfdfdf
+  BorderColor #b4b4b4
+}
+skinparam rectangle<<Person>> {
+  BackgroundColor #ccfccc
+  BorderColor #70c07d
+}
+skinparam rectangle<<Process>> {
+  BackgroundColor #f1aaaa
+  BorderColor #cf5a5a
+  RoundCorner 50
+}
+skinparam database {
+  BackgroundColor #cce4fc
+  BorderColor #7098c0
+}

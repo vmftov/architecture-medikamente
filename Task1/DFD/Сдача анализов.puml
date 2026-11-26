@@ -1,0 +1,26 @@
+@startuml Сдача анализов
+
+!theme plain
+!include Стили.puml
+
+' Люди
+rectangle "Пациент" as Patient <<Person>>
+
+' Системы
+rectangle "Мед. лаборатория" as Laboratory <<External>>
+rectangle "Exchange Email\nServer\n(Проверка текста и вложений)\n\n<b>НЕТ ДАННЫХ О ПОТОКАХ</b>" as ExchangeEmailServer
+
+' Хранилища
+database "Реестр анализов за день (Excel-файл)\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)\n\n<b>НЕТ ДАННЫХ О ПОТОКАХ</b>" as RegistryByDayExcelFile
+
+' Сдача анализов -----------------------------------------------------------------
+
+rectangle "Сдача анализов\n(Apache NiFi, Токенизация, Data Lineage)" as TakingTests <<Process>>
+
+Patient .up.> TakingTests : Направление\nна анализы\n(Токенизация)
+
+TakingTests .up.> Laboratory : Направление\nна анализы\n(TLS; токенизация)
+Laboratory ..> TakingTests : Результаты анализов\n(TLS; теги КлиническиеДанные, Проверен)
+TakingTests ..> RegistryByDayExcelFile : Результаты анализов\n(TLS; теги PHI, КлиническиеДанные, Проверен)
+
+@enduml

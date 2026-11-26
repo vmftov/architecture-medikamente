@@ -1,0 +1,21 @@
+@startuml Процессинг платежей
+
+!theme plain
+!include Стили.puml
+
+' Люди
+rectangle "Бухгалтер" as Bookkeeper <<Person>>
+
+' Системы
+rectangle "1С бухгалтерия предприятия\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as OneSAccounting
+rectangle "Exchange Email\nServer\n(DLP, проверка текста и вложений)\n\n<b>НЕТ ДАННЫХ О ПОТОКАХ</b>" as ExchangeEmailServer
+
+' Процессинг платежей -------------------------------------------------------------
+
+rectangle "Процессинг платежей\n(Data Lineage)" as PaymentProcessing <<Process>>
+
+PaymentProcessing --> Bookkeeper : Информация о платеже\n(TLS; тэг ФинансовыеДанные)
+
+OneSAccounting --> PaymentProcessing : Информация о платеже\n(TLS; тэг ФинансовыеДанные)
+
+@enduml

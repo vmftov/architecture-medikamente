@@ -1,0 +1,32 @@
+@startuml Приём пациента
+
+!theme plain
+!include Стили.puml
+
+' Люди
+rectangle "Пациент" as Patient <<Person>>
+rectangle "Специалист-медик" as Doctor <<Person>>
+
+' Хранилища
+database "Журнал записи пациентов (Excel-файл)\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as JournalDoctorExcelFile
+database "Реестр анализов за день (Excel-файл)\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as RegistryByDayExcelFile
+database "Папка с файлами пациентов\n(Шифрование в покое, Бэкапы, Автом. тегирование)" as PatientFioBdFolder
+
+' Приём пациента -----------------------------------------------------------------
+
+rectangle "Приём пациента\n(Data Lineage)" as PatientIntake <<Process>>
+
+PatientIntake ..> Patient : Направление\nна анализы\n(Токенизация)
+
+JournalDoctorExcelFile --> PatientIntake : Данные записи на приём\n(TLS; теги PII:ФИО, PHI)
+PatientIntake --> JournalDoctorExcelFile : Фиксация результатов\nприёма\n(TLS; тег PHI)
+
+PatientIntake ..> PatientFioBdFolder : Мед. карточка,\nСканы документов\n(персон. данные)\n(TLS; теги PII:ФИО, PHI)
+PatientFioBdFolder ..> PatientIntake : Мед. карточка,\nСканы документов\n(персон. данные)\n(TLS; теги PII:ФИО, PHI)
+
+PatientIntake --> Doctor : ФИО и другие\nперсон. данные,\nмед. карточка\n(TLS; теги PII:ФИО, PII:ДатаРождения, PHI)
+PatientIntake ..> Doctor : Результат анализа\n(TLS; тег КлиническиеДанные)
+Doctor ..> PatientIntake : Направление\nна анализы
+RegistryByDayExcelFile ..> PatientIntake : Результаты анализов\n(TLS; теги PHI, КлиническиеДанные, Проверен)
+
+@enduml

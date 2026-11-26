@@ -1,0 +1,31 @@
+@startuml Запись к врачу (регистрация)
+
+!theme plain
+!include Стили.puml
+
+' Люди
+rectangle "Пациент" as Patient <<Person>>
+rectangle "Сотрудник\nресепшена" as Administrator <<Person>>
+
+' Хранилища
+database "Журнал записи пациентов (Excel-файл)\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as JournalDoctorExcelFile
+database "Список пациентов (Excel-файл)\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as PatientsExcelFile
+database "Папка с файлами пациентов\n(Шифрование в покое, Бэкапы, Автом. тегирование)" as PatientFioBdFolder
+
+' Запись к врачу (регистрация) ---------------------------------------------------
+
+rectangle "Запись к врачу (регистрация)\n(Сбор согласий, Data Lineage)" as PatientReception <<Process>>
+
+Patient --> PatientReception : ФИО и другие\nперсон. данные,\nрасширенная форма,\nразрешение на обработку данных
+PatientReception --> Patient : Контракт
+
+PatientReception --> Administrator : ФИО и другие\nперсон. данные,\nрасширенная форма\n(TLS; тег PII)
+Administrator --> PatientReception : Контракт\n(TLS)
+
+PatientReception --> PatientsExcelFile : ФИО и другие\nперсон. данные\n(TLS; теги PII, PII:ФИО, PII:ДатаРождения)
+PatientsExcelFile --> PatientReception : ФИО и другие\nперсон. данные\n(TLS; тег PII)
+
+PatientReception --> JournalDoctorExcelFile : Персон. данные\nи/или ID, время\n(TLS; теги PII:ФИО, PHI)
+PatientReception --> PatientFioBdFolder : Сканы документов\n(персон. данные),\nрасширенная форма\n(TLS; теги PII, PHI)
+
+@enduml

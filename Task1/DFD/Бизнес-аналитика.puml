@@ -1,0 +1,25 @@
+@startuml Бизнес-аналитика
+
+!theme plain
+!include Стили.puml
+
+' Люди
+rectangle "Бизнес-аналитик" as Analyst <<Person>>
+
+' Системы
+rectangle "1С бухгалтерия предприятия\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as OneSAccounting
+rectangle "1С торговля и склад\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as OneSTrading
+
+' Хранилища
+database "Файлы Excel на сервере\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as ExcelFiles
+
+' Бизнес-аналитика ---------------------------------------------------------------
+
+rectangle "Бизнес-аналитика\n(Apache NiFi, Jupyter, Python, Data Lineage)" as Analysis <<Process>>
+
+ExcelFiles ..> Analysis : Данные пациентов\n(TLS; тег Analysis:Gold; Обезличивание, обфускация, маскировка)
+OneSAccounting ..> Analysis : Финансовые данные\n(TLS; теги ФинансовыеДанные, Analysis:Gold; Обезличивание)
+OneSTrading ..> Analysis : Данные ТМЦ\n(TLS; теги ТМЦ, Analysis:Gold)
+Analysis ..> Analyst : Отчёты\n(TLS; тег Analysis:Gold)
+
+@enduml

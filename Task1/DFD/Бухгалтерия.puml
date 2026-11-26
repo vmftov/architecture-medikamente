@@ -1,0 +1,22 @@
+@startuml Бухгалтерия
+
+!theme plain
+!include Стили.puml
+
+' Люди
+rectangle "Бухгалтер" as Bookkeeper <<Person>>
+
+' Системы
+rectangle "1С бухгалтерия предприятия\n(Postgres, Шифрование в покое, Бэкапы, Автом. тегирование)" as OneSAccounting
+
+' Бухгалтерия ---------------------------------------------------------------------
+
+rectangle "Бухгалтерия\n(TLS; тэги HR, ФинансовыеДанные, Налоги; Data Lineage]</i>" as Accounting <<Process>>
+
+Accounting -down-> Bookkeeper : Данные по\nкадрам, зарплатам,\nналогами платежам\n(TLS, тэги HR, ФинансовыеДанные, Налоги)
+Bookkeeper -up-> Accounting : Данные по\nкадрам, зарплатам,\nналогами платежам\n(TLS, тэги HR, ФинансовыеДанные, Налоги)
+
+Accounting --> OneSAccounting : Данные по\nкадрам, зарплатам,\nналогами платежам\n(TLS, тэги HR, ФинансовыеДанные, Налоги)
+OneSAccounting --> Accounting : Данные по\nкадрам, зарплатам,\nналогами платежам\n(TLS, тэги HR, ФинансовыеДанные, Налоги)
+
+@enduml
