@@ -1,0 +1,385 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="N9ECVm-qEDFLN0oKv_Hi">
+    <mxGraphModel dx="3061" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-1" parent="1" style="triangle;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Срыв MVP и полной миграции&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="-20" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-2" edge="1" parent="1" source="ga-4og_m0FgAAcCeyHBP-7" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="ga-4og_m0FgAAcCeyHBP-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-740" y="290" as="sourcePoint" />
+            <mxPoint x="-200" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-240" y="80" as="sourcePoint" />
+            <mxPoint x="-30" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-4" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Программное обеспечение" vertex="1">
+          <mxGeometry relative="1" x="-0.8571" y="1" as="geometry">
+            <mxPoint x="-96" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-580" y="80" as="sourcePoint" />
+            <mxPoint x="-370" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-6" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Проектирование и разработка" vertex="1">
+          <mxGeometry relative="1" x="-0.8571" y="1" as="geometry">
+            <mxPoint x="-106" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-7" parent="1" style="triangle;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="-1160" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-220" y="480" as="sourcePoint" />
+            <mxPoint x="-30" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-10" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Процессы" vertex="1">
+          <mxGeometry relative="1" x="-0.9564" y="1" as="geometry">
+            <mxPoint x="-44" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-560" y="480" as="sourcePoint" />
+            <mxPoint x="-370" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-12" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Инфраструктура" vertex="1">
+          <mxGeometry relative="1" x="-0.8571" y="1" as="geometry">
+            <mxPoint x="-73" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-680" y="260" as="sourcePoint" />
+            <mxPoint x="-400" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-14" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Неправильное разбиение на домены (связность)" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-66" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-340" y="260" as="sourcePoint" />
+            <mxPoint x="-60" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-24" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Отсутствие зрелых российских решений&amp;nbsp;&lt;div&gt;в части&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;тэгирования, Compliance и&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Data Lineage&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-69" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-400" y="380" as="sourcePoint" />
+            <mxPoint x="-120" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-32" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Ошибки при миграции данных из файлов в БД" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-56" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-740" y="200" as="sourcePoint" />
+            <mxPoint x="-460" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-34" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Неправильная настройка SIEM" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-56" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-710" y="230" as="sourcePoint" />
+            <mxPoint x="-430" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-36" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Неправильная синхронизация Keycloak c AD и тэгами" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-66" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-370" y="230" as="sourcePoint" />
+            <mxPoint x="-90" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-38" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Уязвимости в выбранном ПО" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-69" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-400" y="200" as="sourcePoint" />
+            <mxPoint x="-120" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-40" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Утечка приватных ключей и секретов" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-69" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-740" y="380" as="sourcePoint" />
+            <mxPoint x="-460" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-42" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Утеря данных из-за падения сервера" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-69" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-770" y="170" as="sourcePoint" />
+            <mxPoint x="-490" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-44" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Неправильная настройка Apache Nifi" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-69" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-49" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-340" y="320" as="sourcePoint" />
+            <mxPoint x="-60" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-50" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Недостаток нагрузочного тестирования" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-56" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-52" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-960" y="40" as="sourcePoint" />
+            <mxPoint x="-710" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-53" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Персонал" vertex="1">
+          <mxGeometry relative="1" x="-0.5612" y="1" as="geometry">
+            <mxPoint x="-96" y="-64" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-56" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1020" y="260" as="sourcePoint" />
+            <mxPoint x="-740" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-57" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Недостаточное количество разработчиков" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-66" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-58" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1050" y="230" as="sourcePoint" />
+            <mxPoint x="-770" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-59" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Отсутствие опыта в микросервисной арх.&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-66" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-60" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1080" y="200" as="sourcePoint" />
+            <mxPoint x="-800" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-61" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Отсутствие опыта в работе с новыми системами" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-56" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-62" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1110" y="170" as="sourcePoint" />
+            <mxPoint x="-830" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-63" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Отсутствие опыта в вопросах безопасности" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-66" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-64" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1140" y="140" as="sourcePoint" />
+            <mxPoint x="-860" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-65" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Недостаток знаний аналитика(ов) в части AI/ML" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-56" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-66" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1200" y="80" as="sourcePoint" />
+            <mxPoint x="-920" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-67" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-66" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Привычки персонала в работе с конфиденц. данными" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-56" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-86" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-490" y="110" as="sourcePoint" />
+            <mxPoint x="-210" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-87" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-86" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Сложности при миграции 1С (БД и отказ от OLE)" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-66" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-88" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-460" y="140" as="sourcePoint" />
+            <mxPoint x="-180" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-89" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Накладные расходы из-за ABAC и шифрования" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-56" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-90" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-430" y="170" as="sourcePoint" />
+            <mxPoint x="-150" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-91" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-90" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Утеря данных из-за ошибок в бэкапах" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-56" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-92" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-680" y="320" as="sourcePoint" />
+            <mxPoint x="-400" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-93" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-92" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Недостаток серверных мощностей" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-56" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-94" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-710" y="350" as="sourcePoint" />
+            <mxPoint x="-430" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-95" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-94" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Остановка работы компании из-за падения сервера" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-56" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-96" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1170" y="110" as="sourcePoint" />
+            <mxPoint x="-890" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-97" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-96" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Скрытое сопротивление персонала" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-56" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-98" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-370" y="350" as="sourcePoint" />
+            <mxPoint x="-90" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-99" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-98" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Нподходящий cutover план" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-56" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-101" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-890" y="470" as="sourcePoint" />
+            <mxPoint x="-710" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-102" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-101" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Интеграция" vertex="1">
+          <mxGeometry relative="1" x="-0.7553" y="1" as="geometry">
+            <mxPoint x="-61" y="33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-103" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1020" y="320" as="sourcePoint" />
+            <mxPoint x="-740" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-104" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Проникновение в систему через API лаборатории" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-69" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-105" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1050" y="350" as="sourcePoint" />
+            <mxPoint x="-770" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga-4og_m0FgAAcCeyHBP-106" connectable="0" parent="ga-4og_m0FgAAcCeyHBP-105" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Неспособность лаборатории к миграции" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-69" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1AvVcf0j9ueRF9ie_Kok-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-770" y="410" as="sourcePoint" />
+            <mxPoint x="-490" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1AvVcf0j9ueRF9ie_Kok-2" connectable="0" parent="1AvVcf0j9ueRF9ie_Kok-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Остановка работы из-за проблем с сетью" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-69" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1AvVcf0j9ueRF9ie_Kok-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-800" y="440" as="sourcePoint" />
+            <mxPoint x="-520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1AvVcf0j9ueRF9ie_Kok-4" connectable="0" parent="1AvVcf0j9ueRF9ie_Kok-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Перегрузка локальной сети" vertex="1">
+          <mxGeometry relative="1" x="0.3286" y="-3" as="geometry">
+            <mxPoint x="-69" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
